@@ -1,0 +1,125 @@
+html,
+body,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* typography */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.profile-name {
+    font-weight: 600;
+    font-size: 2rem;
+    color: #F8F8F8;
+}
+
+.profile-desc {
+    font-size: 1.5rem;
+    color: #B7B7B7;
+}
+
+/* layout */
+
+body {
+    background: #E5E5E5;
+}
+
+.container {
+    max-width: 550px;
+    margin: 0 auto;
+    background: #ffffff;
+}
+
+.header-buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 18px;
+}
+
+.main {
+    padding: 0 8px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F6F7FB 100%);
+}
+
+.profile-image {
+    width: 100%;
+    height: 751px;
+    background-image: url(images/dog-bella.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 20px 12px;
+}
+
+.profile-name {
+    margin-bottom: 7px;
+}
+
+.main-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 24px 0;
+}
+
+/* buttons */
+
+.main-button {
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    background: #ffffff;
+    display: flex;
+    box-shadow: 0px 10px 20px #E9E9EA;
+}
+
+.accept-button {
+
+}
+
+.reject-button {
+
+}
+
+.reject-button:hover {
+    background: #FFE7EF;
+}
+
+.accept-button:hover {
+    background: #DBFFF4;
+}
+
+
+/* images */
+
+img {
+    display: block;
+}
+
+.header-icon {
+    width: 34px;
+    height: 34px;
+}
+
+.header-logo {
+    width: 84px;
+    height: 42px;
+}
+
+.profile-image {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.main-button-icon {
+    width: 26px;
+    height: 26px;
+    margin: auto;
+}
